@@ -131,6 +131,7 @@ p{
     transition: .2s;
 }
 
+
 .item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
     background-color: #fd7e14;
     color: black;

@@ -11,12 +11,13 @@ const ItemDetail = ( {item} ) => {
     const [cantidad, setCantidad] = useState(1);
 
     const handleRestar = () => {
-        cantidad > 1 && setCantidad(cantidad - 1)
-    }
+      cantidad > 1 && setCantidad(cantidad - 1)
+  }
 
-    const handleSumar = () => {
-        cantidad < item.stock && setCantidad(cantidad + 1)
-    }
+  const handleSumar = () => {
+      cantidad < item.stock && setCantidad(cantidad + 1)
+  }
+    
 
   return (
     <div className="container">

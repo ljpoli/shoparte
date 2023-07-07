@@ -9,7 +9,7 @@ const ItemListContainer = () => {
     const [cuadros, setProductos] = useState([]);
 
     const [titulo, setTitulo] = useState ("cuadros");
-    console.log(setTitulo)
+  
 
     const categoria = useParams().categoria;
 
